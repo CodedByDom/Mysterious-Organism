@@ -27,7 +27,9 @@ The JS File is designed the mutation of a DNA Sample via the use of Objects, com
 * __dnaArray__ pulls the current DNA Strand from object.dna (this.dna)
 * __randomDNAIndexSelected__ generates a random number, limited to the length of the array
 * __selectedBase__ used to confirm the value at the above mentioned index
-* __replacementBase__ generates a replacement base using __returnRandBase__ 
+* _do While Loop_
+    *  __replacementBase__ recieves a new base using __returnRandBase__ 
+    * if the __selectedBase__ == __replacementBase__ it is regenerated.
 * The element in __dnaArray__ is replaced with the __replacementBase__ 
 * returns the _new_ dnaArray back into object.dna (this.dna)
 
