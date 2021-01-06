@@ -24,7 +24,10 @@ const pAequorFactory = (Num, arrayDNA) => {
       console.log(`Random Base Index Selected: ${randomDNAIndexSelected}`);
       let selectedBase = this.dna[randomDNAIndexSelected]; // what element is at the Index Number // TEMP!!!!! Letter
       console.log(`Value at Index: ${selectedBase}`);
-      let replacementBase = returnRandBase(); //generates a new element
+      let replacementBase;
+      do {  //Generates the replacementBase
+        replacementBase = returnRandBase(); 
+      } while (selectedBase === replacementBase); //if the replacementBase is the same as the selectedBase, it is regenerated.
       console.log(`New Base Generated ${replacementBase}`);
       dnaArray[randomDNAIndexSelected] = replacementBase;
       return this.dna = dnaArray;
