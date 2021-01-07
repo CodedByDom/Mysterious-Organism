@@ -1,4 +1,4 @@
-## _Mysterious Orgainism - Code Academy Project_
+## _Mysterious Organism - Code Academy Project_
 
 ### Purpose 
 The JS File is designed the mutation of a DNA Sample via the use of Objects, comparing the mutations and stating of the newly mutated Sample will survive.
