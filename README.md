@@ -33,3 +33,12 @@ The JS File is designed the mutation of a DNA Sample via the use of Objects, com
 * The element in __dnaArray__ is replaced with the __replacementBase__ 
 * returns the _new_ dnaArray back into object.dna (this.dna)
 
+#### Compare
+* Takes in one parameter __compareSample__ which is another Object.
+* Loops throught the index of both arrays, limiting the loop based on the array length.
+    * If the element on each array at index 'i' are ==, __match__ variable is incremented by 1.
+* __percentage__ converts match to a percentage. 
+* __percRounded2__ limits __percentage__ to two decimal places. 
+
+
+
